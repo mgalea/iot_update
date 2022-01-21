@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    link(rel='stylesheet', href='/assets/stylesheets/style.css')
+  body
+    #page-area(class='container-fluid')
+    block header
+    block spinner
+    block content
+    include footer 
